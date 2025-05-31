@@ -13,6 +13,7 @@ Este é o famoso jogo do pedra, papel, tesoura. Vou explicar as regras:
 PEDRA ganha da TESOURA mas perde para o PAPEL.
 TESOURA ganha do PAPEL mas perde para a PEDRA.
 PAPAEL ganha da PEDRA mas perde para a TESOURA.
+-----------------------------------------------------------------------
 '''
 for letra in msg:
     print(letra, end='', flush=True)
@@ -22,6 +23,7 @@ msg2 = '''Agora que você conhece as regras, escolha a sua opção:
 [1] DIGITE 1 PARA ESCOLHER PEDRA
 [2] DIGITE 2 PARA ESCOLHER PAPEL
 [3] DIGITE 3 PARA ESCOLHER TESOURA
+-----------------------------------------------------------------
 '''
 for letra in msg2:
     print(letra, end='', flush=True)

@@ -9,7 +9,7 @@ media = (nota1 + nota2) / 2
 if 0 <= nota1 <= 10 and 0 <= nota2 <= 10:
     if media < 5:
         print(f'\033[91mREPROVADO! Média: {media:.2f}')
-    elif 5.0 >= media < 7.0:
+    elif 5.0 <= media < 7.0:
         print(f'\033[93mEM RECUPERAÇÃO. Média: {media:.2f}')
     else:
         print(f'\033[92mAPROVADO! Média: {media:.2f}')
