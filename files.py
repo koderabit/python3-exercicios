@@ -4,7 +4,7 @@ import os
 caminho_pasta = os.getcwd()
 
 # Loop para criar arquivos de ex036.py até ex045.py
-for i in range(57, 101):
+for i in range(101, 125):
     nome_arquivo = f'ex{i:03d}.py'
     caminho_arquivo = os.path.join(caminho_pasta, nome_arquivo)
     
